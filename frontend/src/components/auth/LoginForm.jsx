@@ -29,6 +29,17 @@ const LoginForm = () => {
     try {
       const res = await loginUser(email, password);
 
+      // ✅ FIXED: Store the token from the response
+      if (res.data.token) {
+        localStorage.setItem("token", res.data.token);
+        console.log("✅ Token stored:", res.data.token.substring(0, 20) + "...");
+      } else {
+        console.error("❌ No token in response:", res.data);
+        showToast("Login failed - no token received", "error");
+        setIsLoading(false);
+        return;
+      }
+
       showToast("Login successful!", "success");
 
       // Redirect to dashboard after a short delay
