@@ -7,9 +7,13 @@ import AuthTabs from "../components/auth/AuthTabs";
 import LoginForm from "../components/auth/LoginForm";
 import SignupForm from "../components/auth/SignupForm";
 import SecurityNotice from "../components/auth/SecurityNotice";
-import AnimatedBackground from "../components/AnimatedBackground";
+
 const Auth = () => {
   const [tab, setTab] = useState("login");
+
+  const handleSignupSuccess = () => {
+    setTab("login");
+  };
 
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
@@ -49,7 +53,11 @@ const Auth = () => {
             <AuthTabs tab={tab} setTab={setTab} />
 
             {/* Forms */}
-            {tab === "login" ? <LoginForm /> : <SignupForm />}
+            {tab === "login" ? (
+              <LoginForm />
+            ) : (
+              <SignupForm onSignupSuccess={handleSignupSuccess} />
+            )}
 
             {/* Security Notice */}
             <SecurityNotice />
