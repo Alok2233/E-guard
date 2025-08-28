@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero"; 
-import AnimatedBackground from "../components/AnimatedBackground";
+
 import {FaLock,FaEye ,FaCheckCircle}from "react-icons/fa"
 const Home = () => {
   

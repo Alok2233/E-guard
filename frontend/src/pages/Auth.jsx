@@ -24,7 +24,7 @@ const Auth = () => {
           {/* Header */}
           <div className="text-center mb-8">
             <div className="flex items-center justify-center mb-4">
-              <FaShieldAlt className="w-12 h-12 text-cyan-400 mr-3" />
+              <FaShieldAlt className="w-12 h-12 text-[oklch(45%_0.31_264.36)] mr-3" />
               <h1 className="text-3xl font-bold text-gray-900">E-Guard</h1>
             </div>
             <p className="text-gray-600">

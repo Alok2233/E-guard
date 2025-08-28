@@ -86,7 +86,7 @@ const SignupForm = ({ onSignupSuccess }) => {
             placeholder="Enter your full name"
             value={signupData.name}
             onChange={(e) => setSignupData({ ...signupData, name: e.target.value })}
-            className="w-full h-12 px-4 border-2 border-gray-200 focus:border-blue-500 focus:outline-none rounded-xl"
+            className="w-full h-12 px-4 border-2 border-gray-200 focus:border-[oklch(45%_0.31_264.36)] focus:outline-none rounded-xl"
             required
             disabled={isLoading}
           />
@@ -101,7 +101,7 @@ const SignupForm = ({ onSignupSuccess }) => {
               placeholder="Enter your email"
               value={signupData.email}
               onChange={(e) => setSignupData({ ...signupData, email: e.target.value })}
-              className="pl-10 w-full h-12 border-2 border-gray-200 focus:border-blue-500 focus:outline-none rounded-xl"
+              className="pl-10 w-full h-12 border-2 border-gray-200 focus:border-[oklch(45%_0.31_264.36)] focus:outline-none rounded-xl"
               required
               disabled={isLoading}
             />
@@ -117,7 +117,7 @@ const SignupForm = ({ onSignupSuccess }) => {
               placeholder="Create a password"
               value={signupData.password}
               onChange={(e) => setSignupData({ ...signupData, password: e.target.value })}
-              className="pl-10 pr-12 w-full h-12 border-2 border-gray-200 focus:border-blue-500 focus:outline-none rounded-xl"
+              className="pl-10 pr-12 w-full h-12 border-2 border-gray-200 focus:border-[oklch(45%_0.31_264.36)] focus:outline-none rounded-xl"
               required
               disabled={isLoading}
             />
@@ -143,7 +143,7 @@ const SignupForm = ({ onSignupSuccess }) => {
               onChange={(e) =>
                 setSignupData({ ...signupData, confirmPassword: e.target.value })
               }
-              className="pl-10 pr-12 w-full h-12 border-2 border-gray-200 focus:border-blue-500 focus:outline-none rounded-xl"
+              className="pl-10 pr-12 w-full h-12 border-2 border-gray-200 focus:border-[oklch(45%_0.31_264.36)] focus:outline-none rounded-xl"
               required
               disabled={isLoading}
             />
@@ -161,7 +161,7 @@ const SignupForm = ({ onSignupSuccess }) => {
         <button
           type="submit"
           disabled={isLoading}
-          className="w-full h-12 bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed text-lg font-semibold text-white rounded-xl flex items-center justify-center transition-colors"
+          className="w-full h-12 bg-[oklch(45%_0.31_264.36)] hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed text-lg font-semibold text-white rounded-xl flex items-center justify-center transition-colors"
         >
           {isLoading ? (
             <>

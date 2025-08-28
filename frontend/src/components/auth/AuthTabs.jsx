@@ -5,7 +5,7 @@ const AuthTabs = ({ tab, setTab }) => {
     <div className="grid grid-cols-2 mb-6 border rounded-xl overflow-hidden">
       <button
         className={`py-2 font-medium ${
-          tab === "login" ? "bg-cyan-400 text-white" : "bg-gray-100"
+          tab === "login" ? "bg-[oklch(45%_0.31_264.36)] text-white" : "bg-gray-100"
         }`}
         onClick={() => setTab("login")}
       >
@@ -13,7 +13,7 @@ const AuthTabs = ({ tab, setTab }) => {
       </button>
       <button
         className={`py-2 font-medium ${
-          tab === "signup" ? "bg-cyan-400 text-white" : "bg-gray-100"
+          tab === "signup" ? "bg-[oklch(45%_0.31_264.36)] text-white" : "bg-gray-100"
         }`}
         onClick={() => setTab("signup")}
       >

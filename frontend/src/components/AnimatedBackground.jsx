@@ -56,7 +56,7 @@ const AnimatedBackground = () => {
   }, []);
 
   return (
-    <div className="absolute inset-0 overflow-hidden bg-gradient-to-br from-[#0a192f] via-[#0f3460] to-[#16213e]">
+    <div className="absolute inset-0 overflow-hidden bg-gradient-to-br from-[#010306] via-[#041a34] to-[#03050c]">
       {/* Node connections */}
       <svg className="absolute inset-0 w-full h-full" style={{ pointerEvents: "none" }}>
         <defs>

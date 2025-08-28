@@ -6,7 +6,7 @@ import { FaShieldAlt} from "react-icons/fa";
 const About = () => {
   const features = [
     {
-      icon: <Shield className="w-8 h-8 text-blue-600" />,
+      icon: <Shield className="w-8 h-8 text-[oklch(45%_0.31_264.36)]" />,
       title: "Advanced Security Scanning",
       description: "Check against millions of breached records from verified sources worldwide."
     },
@@ -71,7 +71,7 @@ const About = () => {
           {/* Hero Section */}
           <div className="text-center mb-16">
             <div className="flex items-center justify-center mb-6">
-              <FaShieldAlt className="w-16 h-16 text-cyan-400 mr-4" />
+              <FaShieldAlt className="w-16 h-16 text-[oklch(45%_0.31_264.36)] mr-4" />
               <h1 className="text-5xl font-bold text-gray-900">About E-Guard</h1>
             </div>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
@@ -96,7 +96,7 @@ const About = () => {
           <div className="grid md:grid-cols-4 gap-6 mb-16">
             {stats.map((stat, index) => (
               <div key={index} className="rounded-xl shadow-lg text-center bg-white p-6">
-                <div className="text-3xl font-bold text-cyan-400 mb-2">{stat.number}</div>
+                <div className="text-3xl font-bold text-[oklch(45%_0.31_264.36)] mb-2">{stat.number}</div>
                 <div className="text-gray-600 font-medium">{stat.label}</div>
               </div>
             ))}
@@ -126,7 +126,7 @@ const About = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Database className="w-8 h-8 text-blue-600" />
+                  <Database className="w-8 h-8 text-[oklch(45%_0.31_264.36)]" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">1. Secure Scanning</h3>
                 <p className="text-gray-600">
@@ -165,7 +165,7 @@ const About = () => {
             <div className="rounded-xl shadow-xl bg-white p-8">
               {faqs.map((faq, index) => (
                 <details key={index} className="mb-4 border-b border-gray-200 pb-4">
-                  <summary className="cursor-pointer font-semibold text-gray-900 hover:text-cyan-400">
+                  <summary className="cursor-pointer font-semibold text-gray-900 hover:text-[oklch(45%_0.31_264.36)]">
                     {faq.question}
                   </summary>
                   <p className="text-gray-600 leading-relaxed pt-2">{faq.answer}</p>
@@ -176,7 +176,7 @@ const About = () => {
 
           {/* Trust & Security */}
           <div className="rounded-xl shadow-xl bg-gradient-to-r from-green-50 to-blue-50 p-8 text-center">
-            <Globe className="w-16 h-16 text-blue-600 mx-auto mb-6" />
+            <Globe className="w-16 h-16 text-[oklch(45%_0.31_264.36)] mx-auto mb-6" />
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Built with Trust & Security</h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto text-left">
               <div>

@@ -81,7 +81,7 @@ const LoginForm = () => {
               onChange={(e) =>
                 setLoginData({ ...loginData, email: e.target.value })
               }
-              className="pl-10 w-full h-12 border-2 border-gray-200 focus:border-blue-500 focus:outline-none rounded-xl"
+              className="pl-10 w-full h-12 border-2 border-gray-200 focus:border-[oklch(45%_0.31_264.36)] focus:outline-none rounded-xl"
               required
               disabled={isLoading}
             />
@@ -100,7 +100,7 @@ const LoginForm = () => {
               onChange={(e) =>
                 setLoginData({ ...loginData, password: e.target.value })
               }
-              className="pl-10 pr-12 w-full h-12 border-2 border-gray-200 focus:border-blue-500 focus:outline-none rounded-xl"
+              className="pl-10 pr-12 w-full h-12 border-2 border-gray-200 focus:border-[oklch(45%_0.31_264.36)] focus:outline-none rounded-xl"
               required
               disabled={isLoading}
             />
@@ -119,7 +119,7 @@ const LoginForm = () => {
         <button
           type="submit"
           disabled={isLoading}
-          className="w-full h-12 bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed text-lg font-semibold text-white rounded-xl flex items-center justify-center transition-colors"
+          className="w-full h-12 bg-[oklch(45%_0.31_264.36)] hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed text-lg font-semibold text-white rounded-xl flex items-center justify-center transition-colors"
         >
           {isLoading ? (
             <>

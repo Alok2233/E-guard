@@ -54,7 +54,7 @@ const Hero = () => {
 
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <div className="flex items-center justify-center mb-6">
-          <FaShieldAlt className="w-16 h-16 text-cyan-400" />
+          <FaShieldAlt className="w-16 h-16 text-[oklch(45%_0.31_264.36)]" />
         </div>
         <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">
           Ensure Your Digital Identity
@@ -70,7 +70,7 @@ const Hero = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email address"
-              className="w-full max-w-md px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-400 bg-white text-gray-700"
+              className="w-full max-w-md px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-[oklch(45%_0.31_264.36)] focus:border-[oklch(45%_0.31_264.36)] bg-white text-gray-700"
               disabled={isChecking}
               required
             />
@@ -78,7 +78,7 @@ const Hero = () => {
           <button
             onClick={handleEmailCheck}
             disabled={isChecking || !email.trim()}
-            className="px-6 py-3 bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white rounded-lg flex items-center gap-2 font-semibold transition-colors"
+            className="px-6 py-3 bg-[oklch(45%_0.31_264.36)] hover:bg-[oklch(48%_0.31_264.36)] disabled:bg-gray-400 text-white rounded-lg flex items-center gap-2 font-semibold transition-colors"
           >
             {isChecking ? (
               <>

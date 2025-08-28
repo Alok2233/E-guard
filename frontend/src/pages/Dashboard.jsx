@@ -129,7 +129,7 @@ const Dashboard = () => {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 flex items-center justify-center">
         <div className="text-center">
-          < FaShieldAlt className="w-12 h-12 text-cyan-400 mx-auto mb-4 animate-pulse" />
+          < FaShieldAlt className="w-12 h-12 text-[oklch(45%_0.31_264.36)] mx-auto mb-4 animate-pulse" />
           <p className="text-lg text-gray-600">Loading dashboard...</p>
         </div>
       </div>
@@ -145,7 +145,7 @@ const Dashboard = () => {
           <p className="text-red-600 mb-4">{error}</p>
           <button 
             onClick={fetchDashboard}
-            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+            className="px-4 py-2 bg-[oklch(45%_0.31_264.36)] text-white rounded-lg hover:bg-blue-700"
           >
             Try Again
           </button>

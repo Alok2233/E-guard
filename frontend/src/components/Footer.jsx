@@ -11,12 +11,12 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-5">
              
-               <FaShieldAlt className="w-8 h-8 text-cyan-400" />
+               <FaShieldAlt className="w-8 h-8 text-[oklch(45%_0.31_264.36)]" />
                <span >E-Guard</span>
             </div>
             <p className="text-gray-400 mb-5 max-w-md leading-relaxed">
               Safeguard your digital identity with{" "}
-              <span className="text-blue-400 font-medium">
+              <span className="text-[oklch(45%_0.31_264.36)] font-medium">
                 real-time breach detection
               </span>{" "}
               and advanced security monitoring. Check if your email or password
@@ -24,7 +24,7 @@ const Footer = () => {
             </p>
             <p className="text-xs text-gray-500">
               © {new Date().getFullYear()}{" "}
-              <span className="text-gray-300 font-medium">E-Guard</span>. All
+              <span className="text-[oklch(45%_0.31_264.36)] font-medium">E-Guard</span>. All
               rights reserved. We never store your sensitive data.
             </p>
           </div>
@@ -36,7 +36,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/"
-                  className="flex items-center gap-2 text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  className="flex items-center gap-2 text-gray-400 hover:text-[oklch(45%_0.31_264.36)] transition-colors duration-300"
                 >
                   <FaHome /> Home
                 </Link>
@@ -44,7 +44,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/password-check"
-                  className="flex items-center gap-2 text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  className="flex items-center gap-2 text-gray-400 hover:text-[oklch(45%_0.31_264.36)] transition-colors duration-300"
                 >
                   <FaKey /> Password Check
                 </Link>
@@ -52,7 +52,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/about"
-                  className="flex items-center gap-2 text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  className="flex items-center gap-2 text-gray-400 hover:text-[oklch(45%_0.31_264.36)] transition-colors duration-300"
                 >
                   <FaInfoCircle /> About
                 </Link>
@@ -60,7 +60,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/auth"
-                  className="flex items-center gap-2 text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  className="flex items-center gap-2 text-gray-400 hover:text-[oklch(45%_0.31_264.36)] transition-colors duration-300"
                 >
                   <FaSignInAlt /> Login
                 </Link>
@@ -75,7 +75,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/privacy"
-                  className="flex items-center gap-2 text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  className="flex items-center gap-2 text-gray-400 hover:text-[oklch(45%_0.31_264.36)] transition-colors duration-300"
                 >
                   <FaShieldAlt /> Privacy Policy
                 </Link>
@@ -83,7 +83,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/terms"
-                  className="flex items-center gap-2 text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  className="flex items-center gap-2 text-gray-400 hover:text-[oklch(45%_0.31_264.36)] transition-colors duration-300"
                 >
                   <FaBalanceScale /> Terms of Service
                 </Link>
@@ -91,7 +91,7 @@ const Footer = () => {
               <li>
                 <a
                   href="mailto:contact@e-guard.com"
-                  className="flex items-center gap-2 text-gray-400 hover:text-blue-400 transition-colors duration-300"
+                  className="flex items-center gap-2 text-gray-400 hover:text-[oklch(45%_0.31_264.36)] transition-colors duration-300"
                 >
                   <FaEnvelope /> Contact Us
                 </a>
